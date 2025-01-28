@@ -11,10 +11,21 @@
         <!-- this div create outer layer of webpage -->
          <div class="todo-app">
             <h2> To-Do List <img src="images/todo-list.png"></h2>
+            <!-- here we try to add input field along with add button -->
+             <div class="row">
+                <input type="text" id ="input-box" placeholder="Enter your task here">
+                <button onclick="addTask()">Add</button>
+             </div>
+                <!-- here we try to add list of task -->
 
+            <ul id="list">
+                <!-- <li class="checked">Task 1:</li>
+                <li>Task 2:</li>
+                <li>Task 3:</li> -->
+            </ul>
          </div>
 
     </div>
-        
+        <script src="script.js"></script>
 </body>
 </html>
