@@ -60,6 +60,7 @@
     border: none;
     background: transparent;
     font-size: 15px;
+    caret-color: #dc143c;
 }
 .row button
 {
